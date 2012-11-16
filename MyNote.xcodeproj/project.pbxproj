@@ -18,6 +18,7 @@
 		84EEEA20165688C800A071B9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EEEA1F165688C800A071B9 /* Default-568h@2x.png */; };
 		84EEEA23165688C800A071B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EEEA22165688C800A071B9 /* ViewController.m */; };
 		84EEEA26165688C800A071B9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84EEEA24165688C800A071B9 /* ViewController.xib */; };
+		84EEEA3216568F1800A071B9 /* MyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EEEA3116568F1800A071B9 /* MyData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		84EEEA21165688C800A071B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84EEEA22165688C800A071B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84EEEA25165688C800A071B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		84EEEA3016568F1800A071B9 /* MyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyData.h; sourceTree = "<group>"; };
+		84EEEA3116568F1800A071B9 /* MyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				84EEEA22165688C800A071B9 /* ViewController.m */,
 				84EEEA24165688C800A071B9 /* ViewController.xib */,
 				84EEEA10165688C800A071B9 /* Supporting Files */,
+				84EEEA3016568F1800A071B9 /* MyData.h */,
+				84EEEA3116568F1800A071B9 /* MyData.m */,
 			);
 			path = MyNote;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				84EEEA16165688C800A071B9 /* main.m in Sources */,
 				84EEEA1A165688C800A071B9 /* AppDelegate.m in Sources */,
 				84EEEA23165688C800A071B9 /* ViewController.m in Sources */,
+				84EEEA3216568F1800A071B9 /* MyData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +295,7 @@
 				84EEEA2B165688C800A071B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
